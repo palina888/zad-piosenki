@@ -107,7 +107,7 @@ class DefaultController extends Controller
     /*
      * F
      */
-
+    
     /**
      * @Route("/bystra-woda.html", name="bystra-woda")
      */
@@ -367,6 +367,12 @@ public function  SenowarszawieAction()
 {
     return $this->render('default/Senowarszawie.html.twig');
 }
-
+    /**
+     * @Route("/fantazja.html", name="fantazja")
+    */
+    public function fantazjaAction()
+    {
+    return $this->render('default/fantazja.html.twig');
+    }
 
 }

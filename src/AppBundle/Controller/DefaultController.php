@@ -265,7 +265,13 @@ public function koloroweAction()
     {
     return $this->render('default/lato.html.twig');
     }
-
+    /**
+     * @Route("/list.html", name="list")
+    */
+    public function listAction()
+    {
+    return $this->render('default/list.html.twig');
+    }
     
     /**
     * @Route("/maybe.html", name="maybe")

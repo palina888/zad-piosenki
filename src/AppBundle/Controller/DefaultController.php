@@ -165,7 +165,13 @@ public function  alabasterAction()
     {
         return $this->render('default/endless.html.twig');
     }
-    
+    /**
+ * @Route("/sober.html", name="sober")
+ */
+public function soberAction()
+{
+    return $this->render('default/sober.html.twig');
+}
     
      /**
      * @Route("/plona-lasy.html", name="plona-lasy")

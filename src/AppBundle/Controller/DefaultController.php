@@ -249,6 +249,13 @@ public function stopniAction()
      
      * H
      */
+/**
+     * @Route("/Sokoly.html", name="Sokoly")
+     */
+    public function  SokolyAction()
+    {
+        return $this->render('default/Sokoly.html.twig');
+    }
     
      /**
      * @Route("/we-are-the-champions.html", name="we-are-the-champions")

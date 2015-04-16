@@ -684,4 +684,14 @@ public function  polakwyjatkowyAction()
     {
         return $this->render('default/dontdream.html.twig');
     }
+    /*
+     * Holy
+     */
+    /**
+     * @Route("/holygrail.html", name="holygrail")
+     */
+    public function holygrailAction()
+    {
+        return $this->render('default/holygrail.html.twig');
+    }
 }

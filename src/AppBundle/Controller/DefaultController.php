@@ -297,6 +297,29 @@ public function  HereAction()
         return $this->render('default/juvenile.html.twig');
     }
 
+    /**
+    * @Route("/jutro.html", name="jutro")
+    */
+    public function  jutroAction()
+    {
+    return $this->render('default/jutro.html.twig');
+    }
+    
+    /**
+    * @Route("/witaj.html", name="witaj")
+    */
+    public function  witajAction()
+    {
+    return $this->render('default/witaj.html.twig');
+    }
+    
+     /**
+    * @Route("/staryfilm.html", name="staryfilm")
+    */
+    public function  staryfilmAction()
+    {
+    return $this->render('default/staryfilm.html.twig');
+    }
    
     /**
  * @Route("/korowody.html", name="korowody")
